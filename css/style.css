@@ -5,6 +5,11 @@ Secondary Color (black) rgb (38, 38,38)
 Tertiary Color (lavendar) rgb(179, 179, 255)
 
 */
+
+*{
+  box-sizing: border-box;
+}
+
 body{ 
 background-color: rgb(255, 255, 240)
 font-family: 'Merriweather', serif;
@@ -83,3 +88,65 @@ a:focus {
     background-color: rgb(89, 89, 89) ;
     color: rgb(179, 179, 255);
   }
+
+  /* Layout Styling */
+
+.container{
+  padding: 15px;
+}
+.row{
+  margin: 25px 0;
+}
+
+.bottom{
+  padding: 10px;
+  border-bottom: 3px solid rgb(38, 38, 38);
+}
+#hero h1{
+  text-align: center;
+}
+.center{
+  text-align: center;
+}
+.logo{
+  max-width: 250px;
+}
+header{
+  background-color: rgb(179, 179, 255);
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 8px 10px 8px 0px rgba(155,155,191,0.79);
+-webkit-box-shadow: 8px 10px 8px 0px rgba(155,155,191,0.79);
+-moz-box-shadow: 8px 10px 8px 0px rgba(155,155,191,0.79);
+position: relative;
+}
+
+nav {
+ display: inline-block;
+ width: 100%;
+}
+nav > ul > li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:rgb(38, 38, 38)
+}
+
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:rgb(0, 136, 204)
+}
+
+#hero {
+  background-color: rgb(179, 179, 255);
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
