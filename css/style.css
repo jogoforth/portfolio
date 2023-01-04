@@ -2,6 +2,7 @@
 Colors Used:
 Primary Color (ivory): rgb(255, 255, 240)
 Secondary Color (black) rgb (38, 38,38)
+Tertiary Color (lavendar) rgb(179, 179, 255)
 
 */
 body{ 
@@ -37,32 +38,36 @@ img {
     width: 100%;
   }
   a {
-    color: #ff7f50;
+    color:(ivory): rgb(255, 255, 240)
+    ;
     text-decoration: none;
   }
   a:hover {
-    color: #cc6540;
+    color: rgb(89, 89, 89)
+;
     text-decoration: underline;}
 
     a:visited { 
-        color: #ff7f50;
+        color: rgb(179, 179, 255)
+
+        ;
       }
       a:active { 
-        color: #994c30; }
+        color:rgb(38, 38, 38); }
 
 a:hover,
 a:focus {
-  color: #cc6540;
+  color: rgb(179, 179, 255);
   text-decoration: underline;
 }
 .button {
     display: inline-block; 
-    background-color: #ff7f50;
-    color: #ffffff; 
+    background-color:rgb(38, 38, 38);
+    color: #rgb(255, 255, 240); 
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #994c30; 
+    border-bottom: 2px rgb(38, 38, 38); 
     transition: 0.2s opacity;
   }
   .button:hover {
@@ -72,11 +77,11 @@ a:focus {
 
   .button.contact {
     background-color: transparent;
-    color: #ff7f50;
+    color:  rgb(38, 38, 38);
     text-transform: uppercase;
-    border: 2px solid #ff7f50;
+    border: 2px solid rgb(38, 38, 38);
   }
   .button.contact:hover {
-    background-color: #ff7f50;
-    color: #ffffff;
+    background-color:rgb(38, 38, 38) ;
+    color: rgb(179, 179, 255);
   }
