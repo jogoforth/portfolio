@@ -38,7 +38,7 @@ img {
     width: 100%;
   }
   a {
-    color: rgb(255, 255, 240);
+    color: rgb(38, 38, 38);
     text-decoration: none;
   }
   a:hover {
@@ -47,22 +47,21 @@ img {
     text-decoration: underline;}
 
     a:visited { 
-        color: rgb(179, 179, 255)
-
+        color: rgb(0, 136, 204)
         ;
       }
       a:active { 
-        color:rgb(38, 38, 38); }
+        color:(ivory): rgb(255, 255, 240); }
 
 a:hover,
 a:focus {
-  color: rgb(179, 179, 255);
+  color: ;
   text-decoration: underline;
 }
 .button {
     display: inline-block; 
-    background-color:rgb(38, 38, 38);
-    color: #rgb(255, 255, 240); 
+    background-color: rgb(179, 179, 255);
+    color: rgb(38, 38, 38); 
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
@@ -81,6 +80,6 @@ a:focus {
     border: 2px solid rgb(38, 38, 38);
   }
   .button.contact:hover {
-    background-color:rgb(38, 38, 38) ;
+    background-color: rgb(89, 89, 89) ;
     color: rgb(179, 179, 255);
   }
