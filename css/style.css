@@ -23,6 +23,7 @@ h1, h2, h3, h4{line-height: 1.4;}
 h1 {
     font-size: 2.75em;
     font-weight: 700;
+    text-align: center;
 }
 h2{
     font-size: 2.25em;
@@ -101,6 +102,7 @@ a:focus {
 
 .bottom{
   padding: 10px;
+  margin: 25px 0;
   border-bottom: 3px solid rgb(38, 38, 38);
 }
 #hero h1{
@@ -164,4 +166,3 @@ footer{
   padding: 15px 10px;
   width: 100%;
 }
-
