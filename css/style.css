@@ -11,12 +11,12 @@ Tertiary Color (lavendar) rgb(179, 179, 255)
 }
 
 body{ 
-background-color: rgb(255, 255, 240)
+background-color: rgb(255, 255, 240);
 font-family: 'Merriweather', serif;
-font-size: 16px
-font-weight: 300
-line-height: 1.6
-color: rgb (38, 38,38)
+font-size: 16px;
+font-weight: 300;
+line-height: 1.6;
+color: rgb (38, 38,38);
 }
 
 h1, h2, h3, h4{line-height: 1.4;}
@@ -27,6 +27,7 @@ h1 {
 h2{
     font-size: 2.25em;
     font-weight: 700;
+    text-align: center;
 }
 
 h3{
@@ -115,9 +116,9 @@ header{
   background-color: rgb(179, 179, 255);
   text-align: center;
   padding: 10px 0;
-  box-shadow: 8px 10px 8px 0px rgba(155,155,191,0.79);
--webkit-box-shadow: 8px 10px 8px 0px rgba(155,155,191,0.79);
--moz-box-shadow: 8px 10px 8px 0px rgba(155,155,191,0.79);
+  box-shadow: 0px 10px 8px -4px rgba(0,0,0,0.79);
+  -webkit-box-shadow: 0px 10px 8px -4px rgba(0,0,0,0.79);
+  -moz-box-shadow: 0px 10px 8px -4px rgba(0,0,0,0.79);
 position: relative;
 }
 
@@ -134,6 +135,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
+  text-align: center;
   color:rgb(38, 38, 38)
 }
 
@@ -148,5 +150,18 @@ nav > ul > li > a:visited {
   background-color: rgb(179, 179, 255);
   padding: 20px 0;
   display: inline-block;
+  text-align: center;
   width: 100%;
 }
+
+footer{
+  margin-left: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer{
+  padding: 15px 10px;
+  width: 100%;
+}
+
