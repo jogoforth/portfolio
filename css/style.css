@@ -149,7 +149,7 @@ nav > ul > li > a:visited {
 }
 
 .navtoggle li:not(:last-child) {
-  display: inline-block;
+  display: none;
 }
 
 .navtoggle, .navtoggle.responsive {
@@ -201,12 +201,20 @@ footer{
 
 @media only screen and (min-width: 641px){
 header {
-  nav > ul > li{
-    display: inline-block;
-    list-style-type: none;
-    padding: 10px 0 4px; 
   text-align: unset;
   padding: 20px 0 13px;
+}
+
+nav > ul > li{
+  display: inline-block;
+}
+
+.navtoggle li: not (:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li: :last-child {
+  display: none;
 }
 
 nav {
@@ -214,8 +222,6 @@ nav {
   float: right;
   margin-top: 4px;
 }
-
-
 
 
 body {
