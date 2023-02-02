@@ -217,11 +217,11 @@ nav > ul > li{
   display: inline-block;
 }
 
-.navtoggle li: not (:last-child) {
+.navtoggle li:not(:last-child) {
   display: inline-block;
 }
 
-.navtoggle li: :last-child {
+.navtoggle li:last-child {
   display: none;
 }
 
@@ -240,7 +240,11 @@ body {
   width: 50%;
 }
 
+img {
+  width: 70%;
+
 }
+
 
 @media only screen and (min-width: 1024px){
   header {
